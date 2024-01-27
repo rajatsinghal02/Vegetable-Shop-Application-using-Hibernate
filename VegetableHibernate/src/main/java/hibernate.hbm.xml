@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+    <hibernate-mapping>
+    <class name="Home" table="detail">
+    <id name="Vegid" type="int"></id>
+    <property name="name" type="string"></property>
+    <property name="stock" type="int"></property>
+    <property name="desc" type="string"></property>
+     <property name="rate" type="int"></property>
+     </class>
+      <class name="customers" table="customerdetail">
+    <id name="cust_id" type="int"></id>
+    <property name="cust_name" type="string"></property>
+    </class>
+    </hibernate-mapping>
